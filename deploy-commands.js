@@ -6,6 +6,7 @@ const token = process.env.TOKEN
 const guildID = process.env.GUILDID
 const fs = require('node:fs')
 
+
 const commands = []
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
 
